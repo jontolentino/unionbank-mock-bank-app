@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense List - Unionbank Online</title>
+    <link rel="stylesheet" href="expenselist.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <h1><a href="index.html">UNIONBANK</a></h1>
+                <p>Welcome, <span id="full-name-user">Jon Tolentino</span></p>
+            </div>
+        </header>
+        <main>
+            <div class="user-sum-info">
+                <div class="user-sum-info-card">
+                    <p>Balance</p><br>
+                    <p id="user-balance">₱ <span id="user-balance-money">120,000</span></p>
+                </div>
+            </div>
+            <!-- MAIN BODY -->
+            <div class="user-controls">
+                <div class="expenselists-container">
+                    <div class="expenselist-content">
+                        <h2>Expense List</h2><br>
+                        <form>
+                            <label>Amount:</label><br>
+                            <input type="text" id="expense-amount-input"><br>
+                            <label>For:</label><br>
+                            <input type="text" id="expense-for"><br>
+                            <button type="button" id="expenselist-now-button" onclick="getExpense()">Add</button>
+                        </form>
+                        <button type="button" id="expenselist-cancel">Cancel / Go Back</button>
+                        <div class="expenselist-container">
+                            <div class="expenselist-content-now">
+                                <div class="expenselist-content-inside">
+                                    <p class="expenses-inputted">PLDT</p>
+                                    <p class="expenses-inputted-amount">₱<span class="expense-input-amount-now">10000</span></p>
+                                </div>
+                                <a href="#"><div class="expenselist-ex">X</div></a>
+                            </div>
+                            <div class="expenselist-content-now">
+                                <div class="expenselist-content-inside">
+                                    <p class="expenses-inputted">Lazada</p>
+                                    <p class="expenses-inputted-amount">₱<span class="expense-input-amount-now">50000</span></p>
+                                </div>
+                                <a href="#"><div class="expenselist-ex">X</div></a>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./js/app.js"></script>
+</body>
+</html>

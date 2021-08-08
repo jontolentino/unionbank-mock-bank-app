@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History - Unionbank Online</title>
+    <link rel="stylesheet" href="history.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <h1><a href="index.html">UNIONBANK</a></h1>
+                <p>Welcome, <span id="full-name-user">Jon Tolentino</span></p>
+            </div>
+        </header>
+        <main>
+            <div class="user-sum-info">
+                <div class="user-sum-info-card">
+                    <p>Balance</p><br>
+                    <p id="user-balance">₱ <span id="user-balance-money">120,000</span></p>
+                </div>
+            </div>
+            <div class="user-controls">
+                <div class="history-container">
+                    <div class="history-content">
+                        <h2>History</h2><br>
+                        <button type="button" id="history-cancel">Go Back</button>
+                        <h3 id="latest-transaction-h3">Latest Transaction:</h3>
+                        <div class="latest-transaction-history">
+                            <div class="latest-transaction-history-content">
+                                <p>Sent ₱<span class="amount-sent-to">1000</span> to <span class="sent-to">jontolentino123@gmail.com</span></p>
+                            </div> 
+                            <div class="latest-transaction-history-content">
+                                <p>Sent ₱<span class="amount-sent-to">2000</span> to <span class="sent-to">jontolentino123@gmail.com</span></p>
+                            </div> 
+                            <div class="latest-transaction-history-content">
+                                <p>Sent ₱<span class="amount-sent-to">5000</span> to <span class="sent-to">jontolentino123@gmail.com</span></p>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>

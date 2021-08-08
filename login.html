@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Unionbank Online</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <h1><a href="index.html">UNIONBANK</a></h1>
+                <p>Login</p>
+            </div>
+        </header>
+        <main>
+            <div class="main-create-account-container">
+                <h2>Login to your account</h2><br>
+                <form>
+                    <label class="label-input-login">Email:</label><br>
+                    <span id="span-email-login"></span>
+                    <input type="email" id="email-input-login" class="login-input"><br>
+                    <label class="label-input-login">Password:</label><br>
+                    <span id="span-password-login"></span>
+                    <input type="password" id="password-input-login" class="login-input"><br>
+                    <button type="button" id="login-button-login-account" onclick="login()">Login</button>
+                </form>
+                <br>
+                <p id="dont-have-account-link">Don't have an account? <a href="register.html">Click here</a> to register.</p>
+            </div>
+            <div class="main-create-account-image-right">
+                <img src="./assets/login-picture1.png" alt="" id="login-image">
+            </div>
+        </main>
+    <script src="./js/register.js"></script>
+</body>
+</html>

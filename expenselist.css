@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color: #161616;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+header{
+    background-color: #FC7A1E;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #ffffff;
+} 
+
+.header-container h1{
+    font-size: 30px;
+}
+
+.header-container h1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-container p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* END OF MENU */
+/* END OF MENU */
+/* END OF MENU */
+
+main{
+    height: auto;
+    background-color: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    color: #161616;
+}
+
+.user-sum-info{
+    margin: 10px auto;
+
+}
+
+.user-sum-info-card{
+    background-color: #ffffff;
+    width: 400px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px #bebebe;
+    border-radius: 4px;
+}
+
+#user-balance{
+    font-size: 42px;
+}
+
+.user-controls{
+    background-color: #ffffff;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-shadow: 2px 2px #bebebe;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+
+.expenselist-content{
+    padding: 10px 20px;
+}
+
+#expense-amount-input, #expense-for{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#expenselist-now-button{
+    border: none;
+    width: 100%;
+    background-color: #FC7A1E;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#expenselist-now-button:hover{
+    background-color: #F24C00; 
+    transition: ease-in-out, .50s ease-in-out;
+    cursor: pointer;
+}
+
+#expenselist-cancel{
+    border: none;
+    width: 100%;
+    background-color: #b1b1b1;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#expenselist-cancel:hover{
+    background-color: #202020; 
+    transition: ease-in-out, .50s ease-in-out;
+    cursor: pointer;
+}
+
+.expenselist-content-now{
+    border: 1px solid #bebebe;
+    border-radius: 3px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expenselist-ex{
+    padding: 10px;
+    background-color: rgb(223, 35, 35);
+
+}
+
+.expenselist-content-now a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+

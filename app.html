@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App - Unionbank Online</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-container">
+                <h1><a href="index.html">UNIONBANK</a></h1>
+                <p>Welcome, <span id="full-name-user">Jon Tolentino</span></p>
+            </div>
+        </header>
+        <main>
+            <div class="user-sum-info">
+                <div class="user-sum-info-card">
+                    <p>Balance</p><br>
+                    <p id="user-balance">₱ <span id="user-balance-money">120,000</span></p>
+                </div>
+            </div>
+            <div class="user-controls">
+                <a href="withdraw.html">
+                    <div class="features-user withdraw">
+                        <img src="./assets/028-bank.png" alt="">
+                        <p>Withdraw</p></div>
+                </a>
+                <a href="sendmoney.html">
+                    <div class="features-user send-money">
+                        <img src="./assets/003-exchange.png" alt="">
+                        <p>Send Money</p></div>
+                </a>
+                <a href="history.html">
+                    <div class="features-user transaction-history">
+                        <img src="./assets/045-report.png" alt="">
+                        <p>Transaction History</p></div>
+                </a>
+                <a href="expenselist.html">
+                    <div class="features-user expense-list">
+                        <img src="./assets/014-searching.png" alt="">
+                        <p>Expense List</p></div>
+                </a>
+                <a href="#">
+                    <div class="features-user user-invest">
+                        <img src="./assets/025-money growth.png" alt="">
+                        <p>Go Invest</p></div>
+                </a>
+                <a href="#">
+                    <div class="features-user user-credit">
+                        <img src="./assets/042-credit card.png" alt="">
+                        <p>Use Credits</p></div>
+                </a>
+                <a href="#">
+                    <div class="features-user send-to-bank">
+                        <img src="./assets/004-money bag.png" alt="">
+                        <p>Send to Bank</p></div>
+                </a>
+                <a href="#">
+                    <div class="features-user user-logout">
+                        <img src="./assets/011-atm.png" alt="">
+                        <p>Logout</p></div>
+                </a>
+            </div>
+        </main>
+
+        <script src="./js/app.js"></script>
+</body>
+</html>
